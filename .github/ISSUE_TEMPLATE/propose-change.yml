@@ -1,0 +1,54 @@
+name: Propose a Guideline Update
+description: Suggest an addition, correction, or update to local ward guidelines.
+title: "[Update]: "
+labels: ["proposed-change"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep our ward's institutional memory accurate! Please provide the details below so the Ward Council or relevant leadership can review and approve the update.
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Individual
+      description: Who is submitting or championing this change? (Name and calling/role)
+      placeholder: "e.g., Jane Doe (Communications Specialist)"
+    validations:
+      required: true
+
+  - type: input
+    id: page
+    attributes:
+      label: Page or Section Affected
+      description: Paste the page title or URL you were viewing.
+      placeholder: "e.g., Operations > Facilities & Cleaning"
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_change
+    attributes:
+      label: Proposed Change
+      description: Describe what should be added, updated, or removed.
+      placeholder: "Update the Saturday cleaning checklist to note where the extra vacuum bags are stored..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Reason / Context for Change
+      description: Why is this update needed? Documenting the "why" helps future leaders understand the context.
+      placeholder: "Building facilities dropped off a new model vacuum last month; bags are now in the utility closet."
+    validations:
+      required: true
+
+  - type: input
+    id: approval
+    attributes:
+      label: Review / Approval Status
+      description: Has this already been discussed with the relevant presidency, bishopric member, or Ward Council?
+      placeholder: "e.g., Approved by Bishopric counselor on Nov 15 / Needs Ward Council review"
+    validations:
+      required: false

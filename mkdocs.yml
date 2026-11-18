@@ -1,0 +1,46 @@
+site_name: Ward Operations & Tradition Guide
+site_description: Local operational guidelines, historical tips, and collaboration workflows.
+repo_url: https://github.com/YOUR-USERNAME/ward-operations-hub
+repo_name: ward-operations-hub
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home & Scope: index.md
+  - How to Propose Changes: governance.md
+  - Organizations (Getting Started):
+      - Relief Society: organizations/relief-society.md
+      - Elders Quorum: organizations/elders-quorum.md
+      - Primary: organizations/primary.md
+      - Young Women: organizations/young-women.md
+      - Young Men: organizations/young-men.md
+      - Sunday School: organizations/sunday-school.md
+  - Operations & Specialists:
+      - Communications: operations/communications.md
+      - Facilities & Cleaning: operations/facilities-cleaning.md
+      - Technology & A/V: operations/technology-av.md
+      - Music & Sacrament Coordination: operations/music-sacrament.md
+      - Temple & Family History: operations/temple-family-history.md
+  - Activities & Retrospectives:
+      - Planning Checklist: activities/planning-checklist.md
+      - Local Venues & Contacts: activities/vendor-venue-contacts.md
+      - Retrospectives:
+          - Retrospective Template: activities/retrospectives/template-retrospective.md
+          - Ward Campout: activities/retrospectives/ward-campout.md
+          - Trunk-or-Treat: activities/retrospectives/trunk-or-treat.md
+          - Christmas Dinner: activities/retrospectives/christmas-dinner.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.tasklist:
+      custom_checkbox: true
