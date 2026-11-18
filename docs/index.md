@@ -6,4 +6,4 @@
 ## Purpose of This Hub
 When callings change, valuable institutional knowledge often walks out the door. Use this site to get up to speed quickly, coordinate across organizations, and learn from past activities.
 
-[Propose a Change or Addition](https://github.com/YOUR-USERNAME/ward-operations-hub/issues/new?template=propose-change.yml){ .md-button .md-button--primary }
+[Propose a Change or Addition](https://github.com/popgengent/ward-operations-hub/issues/new?template=propose-change.yml){ .md-button .md-button--primary }
