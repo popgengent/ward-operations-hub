@@ -1,6 +1,6 @@
 site_name: Ward Operations & Tradition Guide
 site_description: Local operational guidelines, historical tips, and collaboration workflows.
-repo_url: https://github.com/YOUR-USERNAME/ward-operations-hub
+repo_url: https://github.com/popgengent/ward-operations-hub
 repo_name: ward-operations-hub
 
 theme:
@@ -26,6 +26,7 @@ nav:
       - Young Men: organizations/young-men.md
       - Sunday School: organizations/sunday-school.md
   - Operations & Specialists:
+      - Ward Activities Co-Chairs: operations/activities-co-chairs.md
       - Communications: operations/communications.md
       - Facilities & Cleaning: operations/facilities-cleaning.md
       - Technology & A/V: operations/technology-av.md
